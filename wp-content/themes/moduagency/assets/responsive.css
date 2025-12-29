@@ -1,0 +1,233 @@
+/* Responsive CSS Document */
+
+/*
+    Created on   : 01/02/2018.
+    Theme Name   : Advisory.
+    Description  : Advisory - Business, Consulting, Corporate html Template
+    Version      : 1.0.
+    Author       : @Unifytheme.
+    Developed by : @Unifytheme.
+*/
+
+@media (min-width: 992px) {
+	.container {padding-left: 0 !important; padding-right: 0 !important;}
+}
+/*(max-width: 992px)*/
+@media (max-width: 1199px) {
+	.main-menu .navbar-nav >li>a {padding: 0 15px;}
+	.We-Help .Our-Free-Offer {margin-left: 20px;}
+	.Our-Services .Services-Item {padding: 30px 18px 50px;}
+	.Company-History-Row>div:last-child {padding-left: 50px;}
+	.Company-History-Row>div:nth-of-type(2), .Company-History-Row>div:nth-of-type(3) {padding-left: 20px;}
+	.Company-History .history-item>p {font-size: 19px;}
+	.Testimonial-item div.text-center>p {padding: 0;}
+	#Testimonial-Slider.owl-theme .owl-dots {margin-top: 30px;}
+	.Latest-News .Latest-News-title>p {width: calc(100% - 155px);}
+	.We-Help-v2 .We-Help .Our-Free-Offer {margin: 10px 0px 0 0;}
+	.We-Help-v2 .We-Help .We-Help-Text>ul>li {margin-right: 30px;}
+	.Team-Section .team-title>p {width: calc(100% - 160px);}
+	.About-Company-Story .Left-Story-Item .Story-title {width: 470px;}
+	.Testimonial-Section-v2 .Testimonial-Item>.Title {padding-left: 30px;}
+	.Testimonial-Section-v2 .Testimonial-Item>.Text:before {left: 60px;}
+	.single-product-details .review-tab .nav-tabs > li > a {font-size: 20px; margin-right: 0;}
+}
+/*(max-width: 1199px)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.Details-Wrapper .Specific-Services .Specific {min-height: 350px;}
+	.Side-Bar-Wrapper .Side-Bar-Services>ul>li>a, .Side-Bar-Wrapper .Side-Bar-Services>h6 {padding-left: 30px;}
+	.Side-Bar-Wrapper .Side-Bar-Contact {padding: 50px 25px;}
+	.Side-Bar-Wrapper .Side-Bar-Testimonial {padding: 45px 5px 50px 20px;}
+	.Side-Bar-Wrapper .Side-Bar-Testimonial>ul.icon>li:last-child>a {margin-left: 10px;}
+	.Details-Wrapper .Profit-Maagement .Profit {padding-left: 30px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+@media (max-width: 991px) {
+	.top-header .left-side, .top-header .right-side {float: none; text-align: center;}
+	.top-header .left-side>li, .top-header .right-side>li {line-height: 50px;}
+	.top-header .left-side>li:nth-of-type(1) {margin-right: 40px;}
+	.middle-header {padding: 20px 0 20px;}
+	.middle-header .them-logo {text-align: center; margin-bottom: 35px;}
+	/*========  Theme Menu  =========*/
+	.main-menu .navbar-nav >li {margin-right: 0;}
+	.main-menu {position: relative;}
+	.navbar {position: static;}
+    .main-menu .navbar-collapse {position: absolute; left: 0; right: 0; width: 100%; float: none; border: none;}
+	.main-menu .navbar-nav {background: #2f87fd; margin-top: 0px; max-height: 330px; overflow-y: auto;}
+    .navbar-nav,.navbar-nav>li,.navbar-header,.theme-main-menu .navbar-toggle {float: none;}
+	.navbar-collapse.collapse{display: none !important;}
+    .navbar-collapse.collapse.in,.navbar-toggle{display: block !important;}
+	.main-menu .navbar-nav >li>a {line-height: 46px; border-right: none; color: #fff; padding: 0 60px 0 15px;}
+	.main-menu .navbar-nav >li.active,
+	.main-menu .navbar-nav>li {border-top: solid 1px #fff;}
+	.main-menu .navbar-nav>li.dropdown-holder .sub-menu { 
+		-webkit-transition: none;
+		   -moz-transition: none;
+			-ms-transition: none;
+			 -o-transition: none;
+				transition: none;
+		opacity: 1; visibility: visible; position: static; box-shadow: none; width: 100%; display: none;
+		-webkit-transform: scaleY(1);
+		   -moz-transform: scaleY(1);
+			-ms-transform: scaleY(1);
+			 -o-transform: scaleY(1);
+				transform: scaleY(1);
+	}
+	.main-menu .navbar-nav>li.dropdown-holder .sub-menu>li>a {line-height: 40px; padding-left: 20px; border-top: solid 1px #fff;}
+	.main-menu .navbar-nav>li.dropdown-holder .sub-menu>li>a:hover {padding-left: 25px; background: #2d71cd;}
+    .main-menu nav ul li.dropdown-holder .fa {display: block;}
+	.theme-v-2-menu-and-banner .theme-main-menu-version-two .main-menu .navbar-nav >li.active>a, .theme-v-2-menu-and-banner .theme-main-menu-version-two .main-menu .navbar-nav >li:hover>a, .theme-v-2-menu-and-banner .theme-main-menu-version-two .main-menu .navbar-nav >li:focus>a,
+	.main-menu nav ul li.active.dropdown-holder .fa, .main-menu nav ul li:hover.dropdown-holder .fa, .main-menu .navbar-nav >li.active>a, .main-menu .navbar-nav >li:hover a, .main-menu .navbar-nav >li:focus a {color: #fff;}
+	/*****************/
+	.We-Help .We-Help-Item>h2>br {display: none;}
+	.We-Help .Our-Free-Offer {margin-left: 0;}
+	.Choosing-img {margin-top: 30px;}
+	.Why-Choosing {margin: 100px 0;}
+	.Company-History-Row>div:nth-of-type(2), .Company-History-Row>div:last-child {border-right: none; padding-left: 0;}
+	.Company-History-Row>div:nth-of-type(2), .Company-History-Row>div:nth-of-type(3) {padding-left: 0;}
+	.Company-History-Row>div:nth-of-type(1), .Company-History-Row>div:nth-of-type(2) {border-bottom: solid 1px #313f51;}
+	.Company-History .history-item {padding: 80px 0; text-align: center;}
+	.Company-History .history-item>.icon>img {margin: 0 auto;}
+	.Latest-Project {margin: 100px 0;}
+	.Latest-Project .Latest-Project-title>p {width: calc(100% - 150px);}
+	.Latest-News {margin: 100px 0 40px;}
+	.main-footer .contact-info {padding: 20px 15px;}
+	.main-footer .footer-item-wrapper .Quick-Focus {padding-left: 0;}
+	.middle-header-and-menu-item-v-two .middle-header .them-logo {text-align: center; margin-bottom: 15px;}
+	.We-Help-v2 .We-Help .Our-Free-Offer {margin: 40px 0px 0 0;}
+	.We-Help-v2 .We-Help .We-Help-Text>ul>li {margin-bottom: 25px;}
+	.Advisory ul>li {display: block;}
+	.Advisory ul>li>span {margin-right: 0;}
+	.Advisory ul>li>a {margin-top: 35px;}
+	.About-Company-Story .Left-Story-Item .Story-title {float: none; width: auto; max-width: 750px; margin: 0 auto; padding: 0 15px;}
+	.About-Company-Story .Right-Story-Item {margin-top: 80px;}
+	.About-Company-Story .Right-Story-Item .Story-text {float: none; max-width: 750px; margin: 0 auto; padding: 70px 15px 50px; min-height: auto;}
+	.About-Company-Story .Right-Story-Item-Two {margin-top: 60px;}
+	.About-Company-Story .Right-Story-Item-Two .Right-Story-img {height: 350px;}
+	.Services-Details .Details-Wrapper {margin-bottom: 100px;}
+	.side-bar-section {margin-top: 100px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li {margin-right: 5px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li>a {width: 45px; line-height: 38px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li:last-child {margin: 0 0 0 15px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li>a>i {line-height: 38px;}
+	.Comment-and-Reply-wrapper .Next-and-Prev-Post>div {width: 49%;}
+	.shop-sidebar {margin-top: 100px;}
+	.Contact-Us .Contact-Us-Info {margin-top: 50px;}
+}
+/*(max-width: 991px)*/
+@media (max-width: 767px) {
+	.middle-header .middle-header-contant>ul>li {width: 50%; float: left; margin-bottom: 25px;}
+	.middle-header .middle-header-contant>ul>li:nth-of-type(3) {float: left; display: block; width: 100%; margin-bottom: 0;}
+	.middle-header .middle-header-contant>ul>li:nth-of-type(3)>a {width: 100%;}
+	#theme-main-banner-two .camera_prev, #theme-main-banner-two .camera_next,
+	#theme-main-banner .camera_prev, #theme-main-banner .camera_next {display: none;}
+	#theme-main-banner .camera_caption .container h1 {font-size: 49px; margin-bottom: 50px;}
+	.We-Help-Section>i {display: none;}
+	.We-Help-Section {padding: 100px 0;}
+	.We-Help .We-Help-Item>h2 {font-size: 38px;}
+	.Risk-management .management-item {padding: 40px 10px 20px 20px;}
+	#Testimonial-Slider.owl-theme .owl-dots {padding-left: 0;}
+	.Testimonial-item .image {max-width: 300px; margin: 0 auto 50px;}
+	.main-footer .contact-info>ul>li {display: block; text-align: left;}
+	.main-footer .contact-info>ul>li:nth-of-type(1),
+	.main-footer .contact-info>ul>li:nth-of-type(3) {float: none;}
+	.main-footer .contact-info>ul>li:nth-of-type(2) {margin: 15px 0;}
+	.main-footer .contact-info {margin: -80px 0 100px; padding: 20px 30px;}
+	.middle-header-and-menu-item-v-two .middle-header .middle-header-contant>ul>li {width: 50%; float: left; margin-bottom: 10px;}
+	.middle-header-and-menu-item-v-two .middle-header .middle-header-contant>ul>li>.main-menu-icon {float: none; width: 100%; line-height: 35px; border: solid 1px #2f87fd; border-left: none; border-right: none; background: rgba(0,0,0,0.6);}
+	.middle-header-and-menu-item-v-two .middle-header .middle-header-contant>ul>li:nth-of-type(3) {width: 100%; margin-bottom: 0; float: left;}
+	#theme-main-banner-two .camera_caption .container h1>br {display: none;}
+	#theme-main-banner-two .camera_caption .container h1 {font-size: 60px;}
+	.Latest-Project-V2>i {display: none;}
+	.Team-Section {margin: 120px 0 40px;}
+	.Details-Wrapper .Specific-Services .Specific {min-height: auto; margin-bottom: 60px;}
+	.Details-Wrapper .Profit-Maagement .Profit {padding-left: 20px; margin-bottom: 60px;}
+	.Details-Wrapper .Profit-Maagement {margin-top: 20px;}
+	.Comment-and-Reply-wrapper .Next-and-Prev-Post>div {width: 100%; float: none;}
+	.Comment-and-Reply-wrapper .Next-and-Prev-Post>div:nth-of-type(1) {margin-bottom: 40px;}
+	.Comment-and-Reply-wrapper .Reply-wrapper>ul>li>img {left: 0;}
+	.Comment-and-Reply-wrapper .Reply-wrapper>ul>li {padding-left: 110px;}
+	.value-decrease-and-button .Size-chart>a {margin-left: 40px;}
+}
+/*(max-width: 767px)*/
+@media (max-width: 650px) {
+	.Our-Services .services-item-width {width: 100%;}
+	.Risk-management .management-item {padding: 40px 20px 20px 50px;}
+	.Team-Section .team-title>p, .Latest-News .Latest-News-title>p, .Latest-Project .Latest-Project-title>p {width: 100%; margin-bottom: 10px;}
+	.main-footer .footer-bottom>p, .main-footer .footer-bottom>ul {float: none; text-align: center;}
+	.main-footer .footer-bottom {padding: 30px 0;}
+	.value-decrease-and-button .value-decrease-and-select>ul>li, .value-decrease-and-button .Size-chart>ul {display: block;}
+	.value-decrease-and-button .Size-chart>a {margin-left: 0; margin-top: 50px;}
+	.value-decrease-and-select .value-section {padding-left: 0; margin-top: 30px;}
+	.single-product-details .product-order-img .vig-img {margin-right: 0;}
+}
+/*(max-width: 650px)*/
+@media (max-width: 600px) {
+	.shop-product-wrapper>div>div.col-xs-6 {width: 100%;}
+	.theme-pagination-one>.blog-prev-next-button>li>a {width: 45px; line-height: 38px;}
+	.theme-pagination-one>.blog-prev-next-button>li {margin-right: 5px;}
+	.theme-pagination-one>.blog-prev-next-button>li:last-child {margin: 0 0 0 15px;}
+	.theme-pagination-one>.blog-prev-next-button>li>a>i {line-height: 38px;}
+}
+/*(max-width: 600px)*/
+@media (max-width: 550px) {	
+	.middle-header .middle-header-contant>ul>li {width: 100%; float: left; display: block;}
+	.main-footer .footer-item-wrapper .footer-item-width {width: 100%;}
+	.middle-header-and-menu-item-v-two .middle-header .middle-header-contant>ul>li {width: 100%; float: left; display: block;}
+	#theme-main-banner-two .camera_caption>div {padding: 300px 0 0;}
+	#theme-main-banner-two .camera_caption .container h1 {font-size: 50px; line-height: 60px; margin-bottom: 40px;}
+	.no-space-3columns {width: 100%;}
+	.Team-Pages .Team-Item-W {width: 100%;}
+}
+/*(max-width: 550px)*/
+@media (max-width: 500px) {
+	.top-header .left-side>li {display: block;}
+	.top-header .left-side>li:nth-of-type(1) {margin-right: 0;}
+	#theme-main-banner .camera_caption .container h1 {font-size: 45px; margin-bottom: 30px; line-height: 60px;}
+	.Company-History-Row>div {width: 100%;}
+	.Company-History-Row>div {border-right: none;}
+	.Company-History-Row>div:nth-of-type(3) {border-bottom: solid 1px #313f51;}
+	#theme-main-banner-two .camera_caption .container a {margin-top: 40px; display: block; line-height: 45px;}
+	#theme-main-banner-two .camera_caption .container a.banner-button-two {margin-top: 20px;}
+	#theme-main-banner-two .camera_caption .container h1 {font-size: 45px; line-height: 55px; margin-bottom: 40px;}
+	.three-column {width: 100%;}
+	.Details-Wrapper .Result-Driven>.list-one>li>ul>li {margin-left: 20px;}
+	.Details-Wrapper .Result-Driven>.list-two>li {margin-left: 35px;}
+	.blog-post-list-wrapper>.blog-post-list-item .blog-post-list-text>ul>li {float: none !important;}
+	.Comment-and-Reply-wrapper .Reply-wrapper>ul>li>div>span {margin-right: 0; display: block;}
+	#review .single-review img {width: 65px; height: 65px;}
+	#review .single-review .text {width: calc(100% - 65px); padding-left: 15px;}
+	.single-product-details .product-order-img .small-img {margin-bottom: 27px;}
+}
+/*(max-width: 500px)*/
+@media (max-width: 440px) {
+	.top-header .right-side>li {line-height: 42px;}
+	.top-header .right-side>li:nth-of-type(1) {display: block;}
+	.search-button-content .main-menu-icon {width: 140px;}
+	.search-button-content .main-menu-icon>li>a {font-size: 16px; padding: 0 5px;}
+	.cart {width: 50px;}
+	#search-button {width: 50px;}
+	#theme-main-banner .camera_caption .container a {margin-top: 50px;}
+	.Risk-management .management-item {padding: 40px 10px 20px 30px;}
+	.main-menu-button {width: 130px; line-height: 25px; padding: 13px 0 12px;}
+	.Details-Wrapper .Specific-Services .Specific>ul>li {float: none;}
+	.Details-Wrapper .Specific-Services .Specific>ul>li:nth-of-type(2) {width: 100%; margin-bottom: 30px;}
+	.value-decrease-and-select .content-and-select {width: 100%;}
+	.value-decrease-and-button .Size-chart>ul>li>button {margin-bottom: 5px;}
+}
+/*(max-width: 440px)*/
+@media (max-width: 380px) {
+	.navbar-toggle {padding: 0 8px;}
+	.cart {width: 42px;}
+	#search-button {width: 40px;}
+	.main-menu-icon {width: 130px;}
+	.We-Help .Our-Free-Offer {padding: 35px 25px 50px;}
+	.Our-Services .Services-Item {padding: 30px 15px 50px;}
+	.Risk-management .management-item>ul>li {display: block;}
+	.Risk-management .management-item>p {margin-top: 10px;}
+	.main-footer .contact-info {padding: 20px 20px;}
+	.Side-Bar-Wrapper .Side-Bar-Services>ul>li>a, .Side-Bar-Wrapper .Side-Bar-Services>h6 {padding-left: 30px;}
+	.Side-Bar-Wrapper .Side-Bar-Contact {padding: 50px 25px;}
+	.Side-Bar-Wrapper .Side-Bar-Testimonial {padding: 45px 5px 50px 20px;}
+	.Side-Bar-Wrapper .Side-Bar-Testimonial>ul.icon>li:last-child>a {margin-left: 10px;}
+}
+/*(max-width: 380px)*/
